@@ -1,0 +1,28 @@
+* Netlist created with www.circuit-diagram.org
+* 
+V1 3 5
+V2 4 5
+V3 5 5
+V4 6 0
+V5 7 0
+V6 8 0
+'Motor b:1 a:4 #0:6 t=ThreePhase
+'Motor b:0 #0:7 a:3 t=ThreePhase
+'Motor b:2 #0:8 a:5 t=ThreePhase
+V7 11 0
+V8 12 5
+'microcontroller #0:12 #2:11 #3:9 #1:10 header=HM-10 BLE sz=4 p0=VCC p1=TX p2=GND p3=RX p4= p5= p6= p7= p8= p9= p10= p11= p12= p13= p14= p15= p16= p17= p18= p19= p20= p21= p22= p23= p24= p25= p26= p27= p28= p29= p30= p31= p32= p33= p34= p35= p36= p37= p38= p39=
+C9 19 18 1E-05
+V10 18 5
+V11 19 0
+V12 20 0
+V13 21 5
+V14 22 20 9
+'Voltage Regulator c:21 b:20 a:22 reference=Voltage Regulator part= labela=Vin labelb=GND labelc=Vout pina=3 pinb=1 pinc=2
+V15 23 5
+R16 23 24 1000
+V17 25 0
+C18 26 25 2.2E-11
+C19 27 25 2.2E-11
+'microcontroller pin26:14 pin28:13 pin24:15 pin11:16 pin7:17 pin18:18 pin14:19 pin1:24 pin15:25 pin17:27 pin19:26 pin13:23 header=ATmega328PU pins=28 size=Small p1=PIN1 label1=RESET p2=PIN28 label2=Analog Input 5 p3=PIN2 label3=Digital pin 0 (RX) p4=PIN27 label4=Analog Input 4 p5=PIN3 label5=Digital pin 1 (TX) p6=PIN26 label6=Analog Input 3 p7=PIN4 label7=Digital pin 2 p8=PIN25 label8=Analog Input 2 p9=PIN5 label9=Digital pin 3 (PWM) p10=PIN24 label10=Analog Input 1 p11=PIN6 label11=Digital pin 4 p12=PIN23 label12=Analog Input 0 p13=PIN7 label13=VCC p14=PIN22 label14=GND p15=PIN8 label15=GND p16=PIN21 label16=Aref p17=PIN9 label17=Crystal p18=PIN20 label18=AVCC p19=PIN10 label19=Crystal p20=PIN19 label20=Digital pin 13 p21=PIN11 label21=Digital pin 5 p22=PIN18 label22=Digital pin 12 p23=PIN12 label23=Digital pin 6 p24=PIN17 label24=Digital pin 11 (PWM) p25=PIN13 label25=Digital pin 7 p26=PIN16 label26=Digital pin 10 (PWM) p27=PIN14 label27=Digital pin 8 p28=PIN15 label28=Digital Pin 9 (PWM) p29= label29= p30= label30= p31= label31= p32= label32= p33= label33= p34= label34= p35= label35= p36= label36= p37= label37= p38= label38= p39= label39= p40= label40=
+'crystal a:27 b:26
